@@ -22,7 +22,7 @@ title: Locke Birdsey
 email: locke.birdsey@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   "Locke's dev blog. I guess it's interesting?"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "lockeb.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LockeEll
 github_username:  LockeBirdsey
