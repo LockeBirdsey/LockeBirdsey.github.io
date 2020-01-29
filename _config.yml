@@ -28,9 +28,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "lockeb.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LockeEll
 github_username:  LockeBirdsey
+#header_pages:
+footer: 'All of Locke in one place: <a href="http://lockeell.com">LockeEll</a>'
+style: dark # dark (default) or light
+listen_for_clients_preferred_style: true # true or false (default)
 
 # Build settings
-theme: jekyll-theme-console
+#theme: jekyll-theme-console
 plugins: 
     - jekyll-feed
     - jekyll-remote-theme
