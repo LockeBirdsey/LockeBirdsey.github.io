@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## So I Made Some Twitter Bots...
 
