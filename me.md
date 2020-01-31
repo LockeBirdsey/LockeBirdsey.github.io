@@ -1,6 +1,6 @@
 ---
 title: /me
-layout: home
+layout: page
 permalink: /me
 ---
 ## Me
