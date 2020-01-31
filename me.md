@@ -1,3 +1,8 @@
+---
+title: /me
+layout: home
+permalink: /me
+---
 ## Me
 
 You can find me across many places. The main place for that is <http://lockeell.com>  
