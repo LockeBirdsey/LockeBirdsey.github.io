@@ -27,7 +27,7 @@ url: "lockeb.dev" # the base hostname & protocol for your site, e.g. http://exam
 twitter_username: LockeEll
 github_username:  LockeBirdsey
 header_pages:
-	- me
+    - me
 footer: 'All of Locke in one place: <a href="http://lockeell.com">LockeEll</a>'
 style: dark # dark (default) or light
 listen_for_clients_preferred_style: true # true or false (default)
