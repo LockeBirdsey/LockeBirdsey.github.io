@@ -33,11 +33,26 @@ Easy fix, just replace --> with literally anything else.
 And Fibres comes to life. Glorious. 
 
 Intermission
+`<blink><marquee>`
 
 ### A Caveat: Twine Version Control
 
+A big surprise to me is that NONE of my Twine projects were in any form of version control outside of Dropbox. Something that needed to be fixed in the middle of all this. Because of how Twine 2 behaves, this is not a straightforward solve.
 
-## From twine generated html to an executable in the year of our lord 2020
+The main issues:
+- Twine 2 runs as an Electron app, and doesn't include any features for selecting where stories may live.
+- Well, having to use Twine 2 since it's a really nice tool and I don't want to edit branching stories in Sublime Text. 
+
+*Stage 1: Get the essentials into a repo.*  
+Twine 1 source file, Twee2 file, and the Tweego converted Twee3 file. Cool. Bananas. A starting point. 
+
+*Stage 2: Use Twine 2 to edit and update these files* 
+Twine 2 does use a /nice/ directory for storing stories which makes this easier, namely ``$HOME/Documents/Twine``
+We need to prepare our Twee file for use in it.
+``tweego Fibres.twee --archive-twine2 --output=$HOME/Documents/Twine/Stories``[^4]
+Now we can open in Twine 2.
+
+## From Twine generated html to an executable in the year of our lord 2020
 
 Hrmm, this was the hard part. Why? Because lots of different tools have lots of little issues that break. I will have nightmares about `ENOTDIR` for a while to come.  
 The plan: make an executable of a Twine game to put on itch.io. I'm aware I could deploy for web there (or quite frankly anywhere), but I want distributables because then a JS update won't come along and cripple it (a la `Awaken` on GameJolt until recently).
@@ -51,3 +66,4 @@ I think it's worth preserving, at least for my sake, how to do this. I have a LO
 [^1] the author of it is rather important in the Twine scene so it was a bit of a shock.  
 [^2] I mean the downloaded Twine 2 still exists in a browser, but a steady Electron one at least.
 [^3] And is authored by the person that made the tool mentioned in [^1]
+[^4] This if for \*-nix systems. On Windows it is likely different. I will update once I move to Windows land for editing Twine files.
