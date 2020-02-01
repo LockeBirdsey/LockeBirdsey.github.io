@@ -126,7 +126,7 @@ The links to the saving graces of the day:
 - electron-forge <https://github.com/electron-userland/electron-forge>
 
 
-[^1] the author of it is rather important in the Twine scene so it was a bit of a shock.  
-[^2] I mean the downloaded Twine 2 still exists in a browser, but a steady Electron one at least.  
-[^3] And is authored by the person that made the tool mentioned in [^1]  
-[^4] This if for \*-nix systems. On Windows it is likely different. I will update once I move to Windows land for editing Twine files.
+[^1]: the author of it is rather important in the Twine scene so it was a bit of a shock.  
+[^2]: I mean the downloaded Twine 2 still exists in a browser, but a steady Electron one at least.  
+[^3]: And is authored by the person that made the tool mentioned in [^1]  
+[^4]: This if for \*-nix systems. On Windows it is likely different. I will update once I move to Windows land for editing Twine files.
