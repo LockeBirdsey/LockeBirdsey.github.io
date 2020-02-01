@@ -74,6 +74,27 @@ Now we're all happy. Generate the Twine 2 archive, copy to the Twine 2 story dir
 Hrmm, this was the hard part. Why? Because lots of different tools have lots of little issues that break. I will have nightmares about `ENOTDIR` for a while to come.  
 The plan: make an executable of a Twine game to put on itch.io. I'm aware I could deploy for web there (or quite frankly anywhere), but I want distributables because then a JS update won't come along and cripple it (a la `Awaken` on GameJolt until recently).
 
+*Approach 1: Use someone else's Twine/HTML game tool.  *
+Simples. There's a few listed. Some are very old and unmaintained. Some are overkill (one day I'll try you Cradle). A promising one called HTMLE exists. It however doesn't work nicely at uses a very old nw.js build. Not ideal. 
+
+*Approach 2: Do my own NW.js build*
+This did not look particularly fun and lots of people have moved away from NW.js to...
+
+*Approach 3: Electron seems good. Let's use that*
+Twine 2 uses Electron, so if it's good enough for them, it's good enough for me. 
+Simplified creating of Electron apps is ironically not very simple due to NPM/NPX vs Yarn issues. Three main tools exist: `electron-packager`, `electron-builder`, and `electron-forge`. I tried them in this order. Why did I try 3? Because the first two kept throwing up either issues during build or execution of the final output. `electron-forge` however worked almost perfectly once I realised that I still had some stray .yarn directores and thus purged them.
+So now I have a distributible Fibres. Yay! The goal reached!
+
+Ha.
+
+Can we include working audio in this app?  
+Yep.
+
+Oh good.
+
+`electron-forge` does require some boilerplate to be saved to make life easier. And thats the only addition to the repository. Excellent. Well, now we have a build script that moves stuff around so that out final executables contain everything and work correctly. 
+
+
 ## The full workflow. 
 ### From an old Twine 1 game to a stable, safe Twine 2 one with distributing
 
