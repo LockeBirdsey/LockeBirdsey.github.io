@@ -106,13 +106,13 @@ How does the directory in version control look now?
         --imgs
         index.html
         Fibres.twee
-        --twine1
-            Fibres.tws
-            Fibres.tw2
-        --dist
-            --fibres
-                -Package.json
-                -*other stuff*
+    --twine1
+        Fibres.tws
+        Fibres.tw2
+    --dist
+        --fibres
+            -Package.json
+            -*other stuff*
         Makefile
     
 
