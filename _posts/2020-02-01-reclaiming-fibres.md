@@ -6,7 +6,7 @@ published: false
 Many eons ago, I used to make interactive fiction.  
 I was good at it.
 
-So I'm trying to get them back up and working again. And boyyy is it taking a while. So I might run through the steps.
+So I'm trying to get them back up and working again. And boyyy is it taking a while. So I might run through the steps. It has been a LONG time since I checked out the Twine scene, and as such, I'm rather behind on developments. 
 
 ## From Twine 1 to Twine 2
 
@@ -16,7 +16,25 @@ Well, tweego exists[^3]. And can do some cool things. Like convert between versi
 
 ``tweego my-poor-twee-file.tw2 -a -o output-to-twine2.html``
 
-### A Caveat: Twine VCS
+Import into Twine 2 and suddenly it appears.
+Oh god, the issues.
+
+So those custom macros I mentioned? Well, the JS for them no longer works. Bollocks I hear you say. Never. Twine macros are Story Format dependent. `Fibres` used `Sugarcube`, a Twine 1 format. A increased captial version exists for Twine 2 called `SugarCube`. As it just so wonderfully turns out, my custom macros are now core in `SugarCube`. Just with different names and parameters. Regex made short work of that.
+
+An interesting issue that was probably exclusive to me was a passage link failing on a number of chapters. Specifically:
+
+``[[-->|Passage]]``
+
+The documentation for linking is quite straight forward: ``[[Text|Link]]``. So why does `-->` fail?  
+Well, how are Twine2 files stored? HTML. And what is a comment in HTML? That's right 
+``<!--comment-->``
+Easy fix, just replace --> with literally anything else. 
+
+And Fibres comes to life. Glorious. 
+
+Intermission
+
+### A Caveat: Twine Version Control
 
 
 ## From twine generated html to an executable in the year of our lord 2020
@@ -26,6 +44,9 @@ The plan: make an executable of a Twine game to put on itch.io. I'm aware I coul
 
 ## The full workflow. 
 ### From an old Twine 1 game to a stable, safe Twine 2 one with distributing
+
+I think it's worth preserving, at least for my sake, how to do this. I have a LOT of Twine 1 files. There's a number of tools to be made from this, but I'll save that for a future bout of hypomania.
+
 
 [^1] the author of it is rather important in the Twine scene so it was a bit of a shock.  
 [^2] I mean the downloaded Twine 2 still exists in a browser, but a steady Electron one at least.
