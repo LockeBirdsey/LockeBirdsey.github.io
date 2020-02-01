@@ -10,7 +10,7 @@ So I'm trying to get them back up and working again. And boyyy is it taking a wh
 
 ## From Twine 1 to Twine 2
 
-Fibres was made a long time ago (2012 or 2013). Twine 1 (or more importantly Twee2) was the cutting edge. The story format (Sugarcube) had some limitations, so custom macros were all the rage. Porting from Twine 1 to 2 was easy. A tool that advertised as such could be downloaded and ran. Did it work? Of course not. It was from 2015, what did I expect? [^1] Take 2: Maybe Twine's export to Twee code feature would produce a file that could be imported into Twine 2. Ei/non/no. Twine 2 can only import compatible HTML files. Take 3: Generate the HTML from Twine 1 and import into Twine 2. Ei/non/no. Silent failures on both in browser and downloaded versions of Twine 2 [^2]. What to do?  
+Fibres was made a long time ago (2012 or 2013). Twine 1 (or more importantly Twee2) was the cutting edge. The story format (Sugarcube) had some limitations, so custom macros were all the rage. Porting from Twine 1 to 2 was easy. A tool that advertised as such could be downloaded and ran. Did it work? Of course not. It was from 2015, what did I expect?[^1] Take 2: Maybe Twine's export to Twee code feature would produce a file that could be imported into Twine 2. Ei/non/no. Twine 2 can only import compatible HTML files. Take 3: Generate the HTML from Twine 1 and import into Twine 2. Ei/non/no. Silent failures on both in browser and downloaded versions of Twine 2 [^2]. What to do?  
 
 Well, tweego exists[^3]. And can do some cool things. Like convert between versions of Twee code, but most importantly export to Twine 1 or 2 archives. C'est magnifique!  
 
