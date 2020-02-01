@@ -119,6 +119,8 @@ How does the directory in version control look now?
 
 Of course, saving audio and images to VCS is an issue because of size, so they currently remain in Dropbox. For lack of a VPS, this must be the way.
 
+Whether or not this is helpful to anyone remains to be seen, but at least it is for me.
+
 The links to the saving graces of the day:
 - Tweego <https://www.motoslave.net/tweego/>
 - electron-forge <https://github.com/electron-userland/electron-forge>
