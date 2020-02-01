@@ -92,30 +92,36 @@ Yep.
 
 Oh good.
 
-`electron-forge` does require some boilerplate to be saved to make life easier. And thats the only addition to the repository. Excellent. Well, now we have a build script that moves stuff around so that out final executables contain everything and work correctly. 
-
+`electron-forge` does require some boilerplate to be saved to make life easier. And thats the only addition to the repository. Excellent. Well, now we have a build script that moves stuff around so that out final executables contain everything and work correctly. Just need to remember to update that ``packages.json`` file every so often.
 
 ## The full workflow. 
 ### From an old Twine 1 game to a stable, safe Twine 2 one with distributing
 
 I think it's worth preserving, at least for my sake, how to do this. I have a LOT of Twine 1 files. There's a number of tools to be made from this, but I'll save that for a future bout of hypomania.
 
-How does the directory look now?
-``
-/
---src
-  --audio
-  index.html
-  Fibres.twee
---twine1
-  Fibres.tws
-  Fibres.tw2
---dist
-  --fibres
-    -Package.json
-    -*other stuff*
-Makefile
-``
+How does the directory in version control look now?
+    
+	/
+	--src
+  		--audio
+  		--imgs
+  		index.html
+  		Fibres.twee
+		--twine1
+  			Fibres.tws
+			Fibres.tw2
+		--dist
+  			--fibres
+   				-Package.json
+    			-*other stuff*
+		Makefile
+    
+
+Of course, saving audio and images to VCS is an issue because of size, so they currently remain in Dropbox. For lack of a VPS, this must be the way.
+
+The links to the saving graces of the day:
+- Tweego <https://www.motoslave.net/tweego/>
+- electron-forge <https://github.com/electron-userland/electron-forge>
 
 
 [^1] the author of it is rather important in the Twine scene so it was a bit of a shock.  
