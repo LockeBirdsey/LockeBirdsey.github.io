@@ -20,10 +20,9 @@
 
 title: Locke Birdsey
 email: locke.birdsey@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  "Locke's dev blog. I guess it's interesting?"
+description: "Locke's dev blog. I guess it's interesting?"
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "lockeb.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lockeb.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LockeEll
 github_username:  LockeBirdsey
 header_pages:
@@ -36,8 +35,8 @@ listen_for_clients_preferred_style: true # true or false (default)
 # Build settings
 #theme: jekyll-theme-console
 plugins: 
-    - jekyll-remote-theme
-remote_theme: b2a3e8/jekyll-theme-console
+   - jekyll-remote-theme
+remote_theme: LockeBirdsey/jekyll-theme-console
 markdown: kramdown
 # Exclude from processing.
 # The following items will not be processed, by default.
