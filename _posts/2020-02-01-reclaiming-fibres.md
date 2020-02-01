@@ -47,10 +47,27 @@ The main issues:
 Twine 1 source file, Twee2 file, and the Tweego converted Twee3 file. Cool. Bananas. A starting point. 
 
 *Stage 2: Use Twine 2 to edit and update these files* 
-Twine 2 does use a /nice/ directory for storing stories which makes this easier, namely ``$HOME/Documents/Twine``
+Twine 2 does use a /nice/ directory for storing stories which makes this easier, namely ``$HOME/Documents/Twine``  
 We need to prepare our Twee file for use in it.
+
 ``tweego Fibres.twee --archive-twine2 --output=$HOME/Documents/Twine/Stories``[^4]
+
 Now we can open in Twine 2.
+
+\*edits\*
+
+How can we bring it back and save the changes, both layout and textual, to our VCS of choice?  
+Not hard.
+
+``mv $/Documents/Twine/Stores/Fibres.html our/vcs/repo``
+
+And then update our source file.
+
+``tweego Fibres.html -d -o Fibres.twee``
+
+This is all rather straightforward. There is additional issue that Twine 2 creates: When `Fibres` archive was opened, Twine 2 saves an archive that uses the ``StoryTitle`` parameter. Which in this case wasn't `Fibres` but instead `Fibres[Part 1]`. Oops. Easy fix.
+
+Now we're all happy. Generate the Twine 2 archive, copy to the Twine 2 story directory, work on the file, copy the file back and decode to Twee3 code. E.A.S.Y
 
 ## From Twine generated html to an executable in the year of our lord 2020
 
