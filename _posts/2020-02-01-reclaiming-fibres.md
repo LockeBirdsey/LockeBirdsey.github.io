@@ -100,6 +100,23 @@ Oh good.
 
 I think it's worth preserving, at least for my sake, how to do this. I have a LOT of Twine 1 files. There's a number of tools to be made from this, but I'll save that for a future bout of hypomania.
 
+How does the directory look now?
+``
+/
+--src
+  --audio
+  index.html
+  Fibres.twee
+--twine1
+  Fibres.tws
+  Fibres.tw2
+--dist
+  --fibres
+    -Package.json
+    -*other stuff*
+Makefile
+``
+
 
 [^1] the author of it is rather important in the Twine scene so it was a bit of a shock.  
 [^2] I mean the downloaded Twine 2 still exists in a browser, but a steady Electron one at least.
