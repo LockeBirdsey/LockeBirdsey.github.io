@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title:  "Icons icns ico"
+published: true
 ---
 ## Icons icns ico
 
