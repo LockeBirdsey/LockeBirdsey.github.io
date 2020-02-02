@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "About This Theme?"
-date:   2020-02-02 00:00:00 +0200
+title: About This Theme?
+date: '2020-02-02 00:00:00 +0200'
 categories: meta
+published: false
 ---
 ## I rather like this theme.
 Although it has some serious issues. And in this post I will discuss what they are and how I fixed them.
