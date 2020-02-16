@@ -39,10 +39,15 @@ In the case the entire story is self-contained as an HTML file, done! But of cou
 What happens if you have images and audio included? We now run into a problem that Twine2 handles differently compared to using Tweego and CLI. Paths are absolute compared to relative. In the latter, this is easy (assuming the author is logical) because a common structure is usually followed:
 ``
 twine_project_dir/
+
     story.html
+    
     imgs/
+    
         an_image.png
+        
     audio/
+    
         some_audio.mp3
 ``
 
