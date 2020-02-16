@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Making some tools to make someones? life easier
 
