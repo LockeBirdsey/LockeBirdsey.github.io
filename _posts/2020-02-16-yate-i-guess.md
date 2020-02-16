@@ -11,4 +11,13 @@ So I see 2 main problems here:
 
 Problem 1 is where the bulk of this post lies.
 
-I still plan on using electron to package the executables. 
+I still plan on using electron to package the executables. This requires NPM/NPX to do. As such, writing this in something that depends on NPM/NPX is slightly problematic for the non-technical user. This pushed me to make it in something else, however, the ease of use consideration made this choice easy. I decided on Python as prior experience with GUI development in C++ and Java is painful. A package for Python called "PySimpleGUI" makes this VERY easy. The problem now becomes a design problem.
+
+So, this tool (or set of tools really) has to accomplish certain tasks:
+- Set up the Electron app builder directory
+- Move all the necessary Twine, HTML, and other files to the correct directory
+- Add the correct data to the various JSON files
+- Build the app for Platform X
+- Build the app for Web
+
+In it's current state, it treats each new build as an entirely new Electron app. Which means lots of NPM downloads.
