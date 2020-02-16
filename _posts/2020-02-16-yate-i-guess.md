@@ -40,15 +40,10 @@ What happens if you have images and audio included? We now run into a problem th
 
 ```
 twine_project_dir/
-
     story.html
-    
     imgs/
-    
         an_image.png
-        
     audio/
-    
         some_audio.mp3
 ```
 
