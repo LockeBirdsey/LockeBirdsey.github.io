@@ -216,10 +216,6 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.16.3)
-    no-style-please (0.4.7)
-      jekyll (~> 3.9.0)
-      jekyll-feed (~> 0.15.1)
-      jekyll-seo-tag (~> 2.7.1)
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -274,8 +270,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-remote-theme
   jekyll-theme-console
-  minima (~> 2.5)
-  no-style-please
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
