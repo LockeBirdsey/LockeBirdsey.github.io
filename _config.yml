@@ -34,10 +34,10 @@ style: dark # dark (default) or light
 listen_for_clients_preferred_style: true # true or false (default)
 
 # Build settings
-theme: no-style-please
+theme: jekyll-theme-console
 plugins: 
    - jekyll-remote-theme
-remote_theme: riggraz/no-style-please
+remote_theme: LockeBirdsey/jekyll-theme-console
 markdown: kramdown
 kramdown:
   input: GFM
