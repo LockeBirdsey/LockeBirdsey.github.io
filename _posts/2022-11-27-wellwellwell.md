@@ -18,6 +18,6 @@ But now due to...external ideas, `go`
 More specifically `ebitengine` (terrible name, nice engine with a wacky concept)
 
 HOLY SHIT THIS THEME DOESN'T DISPLAY IAMGES
-<!-- ![A screen shot of a window showing a few pixel art tiles of ground and the words "Hello World"](../assets/helloworldebitenegineandsomedafetileset.png) -->
+![A screen shot of a window showing a few pixel art tiles of ground and the words "Hello World"](https://i.imgur.com/BT1p0r4.png)
 
 We'll see where this goes, if anywhere
