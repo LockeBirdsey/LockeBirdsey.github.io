@@ -4,6 +4,6 @@ layout: home
 permalink: /
 ---
 
-# Hei
+Hei
 
 Locke's devblog. Yeah, another one.
