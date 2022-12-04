@@ -5,7 +5,7 @@ date: 2022-12-04T08:17:45.262Z
 preview: ""
 tags: ""
 categories: ""
-published: false
+published: true
 ---
 So there's been some more from the previous post. I quite like `golang` I think, although the lack of actual concrete style rules is very weird as a Google product but hey, I can live with that.
 
