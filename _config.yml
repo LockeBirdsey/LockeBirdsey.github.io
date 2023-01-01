@@ -23,13 +23,13 @@ email: locke.birdsey@gmail.com
 description: "Locke's dev blog. I guess it's interesting?"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://lockeb.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: LockeEll
+twitter_username: birlocke_
 github_username:  LockeBirdsey
 header_pages:
     - index.md
     - me.md
     - https://github.com/lockebirdsey
-footer: 'All of Locke in one place: <a href="http://lockeell.com">LockeEll</a>'
+footer: 'Things happen here sometimes. They are probably boring'
 style: dark # dark (default) or light
 listen_for_clients_preferred_style: true # true or false (default)
 

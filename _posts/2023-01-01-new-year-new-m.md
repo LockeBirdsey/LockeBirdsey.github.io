@@ -33,6 +33,7 @@ They are in a traditional visual novel style. They have their own JSONs as well 
 
 This was borne out of necessity. It actually begun with level generation. I started writing a random level generator because a) infinite levels, and b) I'm not a level designer. After a day[^1] or so of work, I began to realise that maybe generation would get me 75% of the way and the rest would need to be tweaked manually. So I wrote an exporter for the levels. It took about 20 minutes and most of that time was spent deliberating how they should be stored. I chose a way that was ~27% more space efficient than the simplest way and still maintains some readability. Considering my maps are currently 20x20 i.e. 400 tiles, it's still not so readable. 
 Entries kinda look like:
+
 ```
 "tile_sprite_id": { "coords": [coord1, coord2] }
 ```
@@ -44,3 +45,5 @@ At this point I was *seriously* thinking of editing the points in the JSON. Yes,
 I'm back at work as of tomorrow and back to my old routines, so there'll be a couple of hours work on this a week which kinda sucks, especially since some hard bits are coming up and I can't just do them in front of the TV. Also actually thinking about narrative again and since this will be part of the universe I set my book in, I need to check my notes. 
 
 Until next time (probably in another 2 weeks. Maybe)
+
+[^1]: A day is a bit subjective and changeable. 30 minutes minimum to 4 hours max
