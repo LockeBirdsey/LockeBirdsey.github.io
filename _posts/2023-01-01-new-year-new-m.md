@@ -34,7 +34,7 @@ They are in a traditional visual novel style. They have their own JSONs as well 
 This was borne out of necessity. It actually begun with level generation. I started writing a random level generator because a) infinite levels, and b) I'm not a level designer. After a day[^1] or so of work, I began to realise that maybe generation would get me 75% of the way and the rest would need to be tweaked manually. So I wrote an exporter for the levels. It took about 20 minutes and most of that time was spent deliberating how they should be stored. I chose a way that was ~27% more space efficient than the simplest way and still maintains some readability. Considering my maps are currently 20x20 i.e. 400 tiles, it's still not so readable. 
 Entries kinda look like:
 
-```
+```json
 
 "tile_sprite_id": { "coords": [coord1, coord2] }
 
