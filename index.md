@@ -1,5 +1,5 @@
 ---
-title: locke/b/dev/
+title: dev/blog
 layout: home
 permalink: /
 ---
