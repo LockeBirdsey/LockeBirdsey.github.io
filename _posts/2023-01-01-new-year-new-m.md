@@ -35,9 +35,9 @@ This was borne out of necessity. It actually begun with level generation. I star
 Entries kinda look like:
 
 ```json
-
-"tile_sprite_id": { "coords": [coord1, coord2] }
-
+{
+    "tile_sprite_id": { "coords": ["x1,y1", "x2,y2"] }
+}
 ```
 
 At this point I was *seriously* thinking of editing the points in the JSON. Yes, that was insane. And that's how the level editor came to be. Again, it was very simple, about an hour of work and I could load in the level JSON, click on each tile to cycle through the available tile sprites and then export (albeit to `stdout` but still). I guess I'm going to have to learn some level design, or just play more tactics games. I still have a few things I need to consider & implement such as depth, cover and line-of-sight.
