@@ -1,7 +1,7 @@
 ---
 title: oh boy, another idea
 description: ""
-date: 2023-06-21T08:25:14.782Z
+date: 2023-06-21T06:25:14.782Z
 preview: ""
 tags: ""
 categories: ""
