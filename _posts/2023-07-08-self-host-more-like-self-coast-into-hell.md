@@ -30,3 +30,13 @@ i could also add some fedi* stuff but we'll see. that stuffs expensive on the ol
 ## the missing thing?
 
 backups. if i do any of this, i need solid ways to back everything up. i will make a post about that (assuming i ever even get around to all this)
+
+## very quick sketch
+
+i thought it best to also sketch it out. there's a lot missing (volumes, server services) and kinda wrong (the 'vpn' section points the wrong ways), but this is the bulk of my idea. i guess i finally have a project with a defined goal? nice
+
+![](/assets/lockelhost.drawio.png)
+
+randomly thought of a good name for this: `lockelhost`
+
+but an even better idea for the domain name 
